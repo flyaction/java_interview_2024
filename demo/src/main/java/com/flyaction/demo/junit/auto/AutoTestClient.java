@@ -29,7 +29,7 @@ public class AutoTestClient
     public static void main(String[] args) throws IOException, ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException
     {
         //家庭作业，抽取一个方法，（class，p....）
-        com.atguigu.interview2.junit.auto.CalcHelpDemo calcHelpDemo = new com.atguigu.interview2.junit.auto.CalcHelpDemo();
+        com.flyaction.demo.junit.auto.CalcHelpDemo calcHelpDemo = new com.flyaction.demo.junit.auto.CalcHelpDemo();
         int para1 = 10;
         int para2 = 0;
 
