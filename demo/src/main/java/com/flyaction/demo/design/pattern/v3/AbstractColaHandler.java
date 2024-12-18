@@ -1,4 +1,4 @@
-package com.atguigu.interview2.design.pattern.v3;
+package com.flyaction.demo.design.pattern.v3;
 
 import org.springframework.beans.factory.InitializingBean;
 

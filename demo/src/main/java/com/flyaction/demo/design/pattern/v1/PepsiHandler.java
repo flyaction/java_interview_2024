@@ -1,4 +1,4 @@
-package com.atguigu.interview2.design.pattern.v1;
+package com.flyaction.demo.design.pattern.v1;
 
 import org.springframework.stereotype.Component;
 

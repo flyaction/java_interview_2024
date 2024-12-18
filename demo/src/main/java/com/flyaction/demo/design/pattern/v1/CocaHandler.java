@@ -1,4 +1,4 @@
-package com.atguigu.interview2.design.pattern.v1;
+package com.flyaction.demo.design.pattern.v1;
 
 import org.springframework.stereotype.Component;
 
@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * @create 2024-03-07 17:17
  */
 @Component
-public class CocaHandler implements HandlerStrategy
+public class CocaHandler implements com.flyaction.demo.design.pattern.v1.HandlerStrategy
 {
     @Override
     public void getCoca(String parameter)

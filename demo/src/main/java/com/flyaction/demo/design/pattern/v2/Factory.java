@@ -1,4 +1,4 @@
-package com.atguigu.interview2.design.pattern.v2;
+package com.flyaction.demo.design.pattern.v2;
 
 import org.springframework.stereotype.Component;
 
@@ -12,14 +12,14 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class Factory
 {
-    private static Map<String, HandlerStrategyFactory> strategyMap = new ConcurrentHashMap<>();
+    private static Map<String, com.flyaction.demo.design.pattern.v2.HandlerStrategyFactory> strategyMap = new ConcurrentHashMap<>();
 
-    public static HandlerStrategyFactory getInvokeStrategy(String str)
+    public static com.flyaction.demo.design.pattern.v2.HandlerStrategyFactory getInvokeStrategy(String str)
     {
         return strategyMap.get(str);
     }
 
-    public static void register(String str ,HandlerStrategyFactory handler)
+    public static void register(String str , com.flyaction.demo.design.pattern.v2.HandlerStrategyFactory handler)
     {
         System.out.println("str: "+str+"\t handler: "+handler);
         if (null == str || null == handler)

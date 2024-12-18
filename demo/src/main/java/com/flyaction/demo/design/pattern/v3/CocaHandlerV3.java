@@ -1,5 +1,6 @@
-package com.atguigu.interview2.design.pattern.v3;
+package com.flyaction.demo.design.pattern.v3;
 
+import com.flyaction.demo.design.pattern.v3.AbstractColaHandler;
 import org.springframework.stereotype.Component;
 
 /**
@@ -30,7 +31,7 @@ public class CocaHandlerV3 extends AbstractColaHandler
     @Override
     public void afterPropertiesSet() throws Exception
     {
-        FactoryV3.register("Coca",this);
+        com.flyaction.demo.design.pattern.v3.FactoryV3.register("Coca",this);
     }
 
 }

@@ -1,6 +1,8 @@
-package com.atguigu.interview2.design.pattern.v2;
+package com.flyaction.demo.design.pattern.v2;
 
 
+import com.flyaction.demo.design.pattern.v2.Factory;
+import com.flyaction.demo.design.pattern.v2.HandlerStrategyFactory;
 import org.springframework.stereotype.Component;
 
 /**

@@ -1,4 +1,4 @@
-package com.atguigu.interview2.design.pattern.v2;
+package com.flyaction.demo.design.pattern.v2;
 
 import org.springframework.stereotype.Component;
 
@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * @create 2024-03-07 17:33
  */
 @Component
-public class CocaHandlerV2 implements HandlerStrategyFactory
+public class CocaHandlerV2 implements com.flyaction.demo.design.pattern.v2.HandlerStrategyFactory
 {
     @Override
     public void getCoca(String parameter)
@@ -19,6 +19,6 @@ public class CocaHandlerV2 implements HandlerStrategyFactory
     public void afterPropertiesSet() throws Exception
     {
                                //K          //V
-        Factory.register("Coca",this);
+        com.flyaction.demo.design.pattern.v2.Factory.register("Coca",this);
     }
 }

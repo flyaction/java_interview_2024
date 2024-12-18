@@ -1,4 +1,4 @@
-package com.atguigu.interview2.design.pattern;
+package com.flyaction.demo.design.pattern;
 
 /**
  * @auther zzyy

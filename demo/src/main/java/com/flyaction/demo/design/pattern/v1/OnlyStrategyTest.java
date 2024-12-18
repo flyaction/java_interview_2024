@@ -1,4 +1,6 @@
-package com.atguigu.interview2.design.pattern.v1;
+package com.flyaction.demo.design.pattern.v1;
+
+import com.flyaction.demo.design.pattern.v1.CocaHandler;
 
 /**
  * @auther zzyy
@@ -19,11 +21,11 @@ public class OnlyStrategyTest
     public void more_IfElse(String parameter)
     {
         if ("Pepsi".equalsIgnoreCase(parameter)) {
-            new PepsiHandler().getCoca(parameter);
+            new com.flyaction.demo.design.pattern.v1.PepsiHandler().getCoca(parameter);
         }else if ("Coca".equalsIgnoreCase(parameter)){
             new CocaHandler().getCoca(parameter);
         }else if ("Wahaha".equalsIgnoreCase(parameter)){
-            new WahahaHandler().getCoca(parameter);
+            new com.flyaction.demo.design.pattern.v1.WahahaHandler().getCoca(parameter);
         }
     }
 
