@@ -1,4 +1,4 @@
-package com.atguigu.interview2.algorithm;
+package com.flyaction.demo.algorithm;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import java.util.HashMap;

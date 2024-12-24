@@ -31,7 +31,7 @@ public class MyRedisCacheAspect
     private RedisTemplate redisTemplate;
 
     //配置织入点
-    @Pointcut("@annotation(com.atguigu.interview2.annotations.MyRedisCache)")
+    @Pointcut("@annotation(com.flyaction.demo.annotations.MyRedisCache)")
     public void cachePointCut(){}
 
     @Around("cachePointCut()")
