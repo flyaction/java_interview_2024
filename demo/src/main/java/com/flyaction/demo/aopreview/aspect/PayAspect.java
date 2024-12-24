@@ -17,16 +17,19 @@ public class PayAspect
     {
         System.out.println("-----@Before前置通知");
     }
+
     @After("execution(public void com.flyaction.demo.aopreview.PayServiceImpl.pay(..))")
     public void afterNotify()
     {
         System.out.println("-----@After后置通知");
     }
+
     @AfterReturning("execution(public void com.flyaction.demo.aopreview.PayServiceImpl.pay(..))")
     public void afterReturningNotify()
     {
         System.out.println("-----@AfterReturning返回通知");
     }
+    
     @AfterThrowing("execution(public void com.flyaction.demo.aopreview.PayServiceImpl.pay(..))")
     public void afterThrowingNotify()
     {
