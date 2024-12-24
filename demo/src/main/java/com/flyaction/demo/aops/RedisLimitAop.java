@@ -45,7 +45,7 @@ public class RedisLimitAop
         redisLuaScript.setScriptSource(new ResourceScriptSource(new ClassPathResource("rateLimiter.lua")));
     }
 
-    @Around("@annotation(com.atguigu.interview2.annotations.RedisLimitAnnotation)")
+    @Around("@annotation(com.flyaction.demo.annotations.RedisLimitAnnotation)")
     public Object around(ProceedingJoinPoint joinPoint)
     {
         System.out.println("---------环绕通知1111111");
