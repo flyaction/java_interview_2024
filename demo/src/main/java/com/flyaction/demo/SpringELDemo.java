@@ -1,13 +1,15 @@
 package com.flyaction.demo;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-//@SpringBootApplication
-public class DemoApplication {
+@Slf4j
+public class SpringELDemo {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		log.info("log:{}","abcd");
+		System.out.println();
 	}
 
 }
